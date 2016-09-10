@@ -112,9 +112,9 @@
       </div>
        <div id="addsatation-info" style="position: absolute;margin-top:480px;display:none;">	 
          <ul id="info-satation" style="list-style-type:none;">
-              <li>&nbsp;&nbsp;&nbsp&nbsp&nbsp&nbsp;&nbsp;名称&nbsp;<input type="text" value="" id="satation-name"/></li>
+              <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名称&nbsp;&nbsp;<input type="text" value="" id="satation-name"/></li>
               <li>&nbsp;&nbsp;&nbsp;&nbsp;经纬度 <input type="text" readonly="readonly" id="satation-lng"/></li>
-                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址<input type="text" readonly="readonly" id="satation-address"/></li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址&nbsp;<input type="text" readonly="readonly" id="satation-address"/></li>
               <li>乘坐人数&nbsp;<input type="text" readonly="readonly" id="satation-people"/></li>
               <li>所属路线
               <input type="text" value=""id="satation-route" readonly="readonly"/>
@@ -125,8 +125,8 @@
                <li>停留时间
               <input type="text" value="" id="satation-delay" />
               </li>
-              <li style="float:left;margin-left:30%;width:20%"><button type="submit" id="sbm">确认</button></li>
-              <li style="float:right;margin-right:30%;width:20%""><button type="reset" id="set">取消</button></li>
+              <li style="float:left;margin-left:25%;width:20%"><button type="submit"class="btn btn-primary btn-xs" id="sbm">确认</button></li>
+              <li style="float:right;margin-right:20%;width:20%""><button type="reset"class="btn btn-primary btn-xs" id="set">取消</button></li>
          </ul>                 
       </div>
       
